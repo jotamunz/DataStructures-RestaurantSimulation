@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>pauseForm</class>
+ <widget class="QWidget" name="pauseForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>771</width>
+    <height>934</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Pausas</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Images.qrc">
+    <normaloff>:/img/Images/Switch.png</normaloff>:/img/Images/Switch.png</iconset>
+  </property>
+  <widget class="QPushButton" name="pushBtn_W15">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>490</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_W15{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_W15:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_W1">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>340</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_W1{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_W1:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelIMG_8">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>30</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_K2">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>130</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_K2{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_K2:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_W10">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>440</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_W10{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_W10:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_W5">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>390</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_W5{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_W5:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelIMG_10">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>30</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_W0">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>340</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_W0{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_W0:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_W12">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>490</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_W12{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_W12:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelIMG_7">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>30</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelIMG_12">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>370</y>
+     <width>91</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_W16">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>540</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_W16{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_W16:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_K0">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>130</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_K0{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_K0:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_W2">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>340</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_W2{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_W2:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelIMG_9">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>30</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_W4">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>390</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_W4{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_W4:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_K4">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>130</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_K4{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_K4:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_W7">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>390</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_W7{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_W7:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelIMG_13">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>730</y>
+     <width>221</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_W13">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>490</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_W13{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_W13:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_W6">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>390</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_W6{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_W6:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_W17">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>540</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_W17{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_W17:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_W8">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>440</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_W8{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_W8:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_W3">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>340</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_W3{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_W3:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_W19">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>540</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_W19{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_W19:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelIMG_15">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>720</y>
+     <width>161</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelIMG_0">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>200</y>
+     <width>161</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelIMG_6">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>710</y>
+     <width>151</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_K1">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>130</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_K1{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_K1:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelIMG_14">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>730</y>
+     <width>251</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_W14">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>490</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_W14{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_W14:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_W18">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>540</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_W18{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_W18:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_K3">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>130</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_K3{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_K3:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelIMG_11">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>30</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_W11">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>440</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_W11{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_W11:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_W9">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>440</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_W9{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_W9:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_Entry">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>640</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_Entry{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_Entry:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_Sink">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>640</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_Sink{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_Sink:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_Cash">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>640</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_Cash{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_Cash:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>640</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton{
+background-color:transparent;
+border-image:url(:onSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushButton:checked
+{
+ border-image:url(:offSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>880</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>STACK:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn_Stack">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>870</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushBtn_Stack{
+background-color:transparent;
+border-image:url(:offSwitch.png);
+background:none;
+border:none;
+background-repeat:none;
+}
+#pushBtn_Stack:checked
+{
+ border-image:url(:onSwitch.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

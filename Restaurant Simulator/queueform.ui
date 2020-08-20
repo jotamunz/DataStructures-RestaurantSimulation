@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>queueForm</class>
+ <widget class="QWidget" name="queueForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>691</width>
+    <height>790</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Queues</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Images.qrc">
+    <normaloff>:/img/Images/Queue.png</normaloff>:/img/Images/Queue.png</iconset>
+  </property>
+  <widget class="QListWidget" name="listWidget_Input">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>331</width>
+     <height>381</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget_Output">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>10</y>
+     <width>331</width>
+     <height>381</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget_Dishes">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>400</y>
+     <width>331</width>
+     <height>381</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget_Bills">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>400</y>
+     <width>331</width>
+     <height>381</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

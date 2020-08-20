@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>Images/Waiter.png</file>
+        <file>Images/Client.png</file>
+        <file>Images/Cheff_Hat.png</file>
+        <file>Images/Bell.png</file>
+        <file>Images/Sink.png</file>
+        <file>Images/Register.png</file>
+        <file>Images/Door.png</file>
+        <file>Images/Restaurant.png</file>
+        <file>Images/Settings.png</file>
+        <file>Images/Switch.png</file>
+        <file>Images/Table.png</file>
+        <file>Images/Queue.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>offSwitch.png</file>
+        <file>onSwitch.png</file>
+    </qresource>
+</RCC>
